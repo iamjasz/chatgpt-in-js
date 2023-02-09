@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/public_html/jasz/chatgpt/
+    - / -R client $DEPLOYPATH
+    - / -R server $DEPLOYPATH
